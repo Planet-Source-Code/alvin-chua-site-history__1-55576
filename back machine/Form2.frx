@@ -1,0 +1,394 @@
+ÿ`m<html>
+
+   <head>
+      <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+      
+      <link rel="stylesheet" type="text/css"
+         href="/collections/web/styles/styles.css"
+         src="/collections/web/styles/styles.css">
+      <title>Internet Archive Wayback Machine</title>
+      <base target="_top">
+
+   </head>
+
+   <body bgcolor="white" alink="red" vlink="#0000aa" link="blue"
+      style="font-family: Arial; font-size: 10pt">
+
+<!-- CHOP_FILE_HERE -->
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="5">
+		<!-- URL FORM -->
+		<form action="/archive_request_ng" method="post">
+		<input type="hidden" name="collection" value="web">
+              <!-- HEADER -->
+			  <tr>
+				<!-- WAYBACK LOGO -->
+				
+      <td width="26%"><a href="/"><img src="/images/wayback_logo_sm.gif" width="153" height="54" border="0"></a></td>
+				<!-- /WAYBACK LOGO -->
+				<!-- ALEXA LOGO -->
+				<td width="70%" align="right"></td>
+				<!-- /ALEXA LOGO -->
+			  </tr>
+			  <!-- /HEADER -->
+			  <!-- GREEN BANNER -->
+			  <tr> 
+				<td colspan="2" height="30" align="center" class="mainSecHeadW"> 
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<!-- ACTUAL FORM -->
+						<tr class="mainBColor">
+							<td colspan="2">
+								<table border="0" width="80%" align="center">
+									<tr>
+									  <td nowrap align="center"><img src="/images/shim.gif" width="1" height="20"> 
+										<b class="mainBodyW"><font size="2" color="#FFFFFF" face="Arial, Helvetica, sans-serif">Enter 
+										Web Address:</font> 
+										<input type="text" name="url" value="http://" size="24" maxlength="256">&nbsp;</b> 
+											<select name="datespec" size="1">
+											<option selected>All</option>
+											<option>2004</option>
+											<option>2003</option>
+											<option>2002</option>
+											<option>2001</option>
+											<option>2000</option>
+											<option>1999</option>
+											<option>1998</option>
+											<option>1997</option>
+											<option>1996</option>
+											</select>
+											&nbsp;<input type="Submit" name="Submit" value="Take Me Back" align="absMiddle">
+											&nbsp;<a href="/collections/web/advanced.html" style="color:white;font-size:11px">Adv. Search</a> <A style="color:white;font-size:11px" HREF="http://web.archive.org/web/*dc_/http://google.com">Compare Archive Pages</A>
+										</td>
+									  </tr>
+								</table>
+							</td>
+						</tr>
+						<!-- /ACTUAL FORM -->
+					</table>
+				</td>
+			  </tr>
+			  <!-- /GREEN BANNER -->
+		</form>
+		<!-- /URL FORM -->
+	  </table>
+<!--
+      <p class="mainSearchTitle">
+         3255 pages found for
+            <a href="http://google.com">http://google.com</a>
+      </p>
+-->
+
+         <table border="0" cellpadding="5" width="100%" class="mainSearchBanner" 
+            cellspacing="0">
+            <tr>
+               <td><p>Searched for <a href="http://google.com"><b>http://google.com</b></a></p></td>
+               <td align=\"right\">
+                  <p align="right"><b>3255</b> Results</p>
+               </td>
+            </tr>
+         </table>
+         <br>
+
+<!-- HIDE THE SEARCHING MESSAGE -->
+
+      <SCRIPT language="JavaScript">
+	function checksAreValid(oForm) {
+		var bValid = false;
+		var aElements = oForm.elements;
+		var nChecked = 0;
+		var bDebug = true;
+		for(var i=0; i<aElements.length; i++) {
+			if(aElements[i].type=="checkbox" && aElements[i].checked) {
+				nChecked++;
+			}
+	
+		}
+		if(nChecked == 2) {
+			bValid = true;
+		} else {
+			alert("Please specify exactly 2 checkboxes\nof the versions you'd like to compare");
+		}
+		return bValid;
+	}	
+
+         if (typeof(hideWaitMsg) == 'function') {
+            hideWaitMsg();
+         }
+
+      </SCRIPT>
+
+<!-- SEARCH RESULTS -->
+
+      <p class="mainBody">
+<span class="mainSmall">
+   Note some duplicates are not shown.       <a href="http://web.archive.org/web/*sa_/http://google.com">          See all.      </a><br>
+   * denotes when site was updated.</span><br>
+<table border="0" width="100%">
+   <tr bgcolor="#CCCCCC">
+      <td colspan="9" align="center" class="mainCalendar">
+         Search Results for Jan 01, 1996 - Mar 13, 2004
+      </td>
+   </tr>
+   <tr bgcolor="#CCCCCC">
+      <td align="center" class="mainBigBody"> 1996 </td>
+      <td align="center" class="mainBigBody"> 1997 </td>
+      <td align="center" class="mainBigBody"> 1998 </td>
+      <td align="center" class="mainBigBody"> 1999 </td>
+      <td align="center" class="mainBigBody"> 2000 </td>
+      <td align="center" class="mainBigBody"> 2001 </td>
+      <td align="center" class="mainBigBody"> 2002 </td>
+      <td align="center" class="mainBigBody"> 2003 </td>
+      <td align="center" class="mainBigBody"> 2004 </td>
+   </tr>
+   <tr bgcolor="#CCCCCC">
+      <td align="center" class="mainBody"> 0 pages </td>
+      <td align="center" class="mainBody"> 0 pages </td>
+      <td align="center" class="mainBody"> 2 pages </td>
+      <td align="center" class="mainBody"> 12 pages </td>
+      <td align="center" class="mainBody"> 69 pages </td>
+      <td align="center" class="mainBody"> 679 pages </td>
+      <td align="center" class="mainBody"> 129 pages </td>
+      <td align="center" class="mainBody"> 157 pages </td>
+      <td align="center" class="mainBody"> 0 pages </td>
+   </tr>
+   <tr bgcolor="#EBEBEB">
+      <td nowrap class="mainBody" valign="top">
+         &nbsp;
+      </td>
+      <td nowrap class="mainBody" valign="top">
+         &nbsp;
+      </td>
+      <td nowrap class="mainBody" valign="top">
+         <a href="http://web.archive.org/web/19981111184551/http://google.com/">Nov 11, 1998</a> *<br>
+<a href="http://web.archive.org/web/19981202230410/http://www.google.com/">Dec 02, 1998</a> *<br>
+
+      </td>
+      <td nowrap class="mainBody" valign="top">
+         <a href="http://web.archive.org/web/19990117032727/http://www.google.com/">Jan 17, 1999</a> *<br>
+<a href="http://web.archive.org/web/19990125085933/http://google.com/">Jan 25, 1999</a><br>
+<a href="http://web.archive.org/web/19990208004515/http://google.com/">Feb 08, 1999</a> *<br>
+<a href="http://web.archive.org/web/19990422191353/http://google.com/">Apr 22, 1999</a> *<br>
+<a href="http://web.archive.org/web/19990423172929/http://www.google.com/">Apr 23, 1999</a><br>
+<a href="http://web.archive.org/web/19990427094925/http://www.google.com/">Apr 27, 1999</a><br>
+<a href="http://web.archive.org/web/19990428171538/http://google.com/">Apr 28, 1999</a><br>
+<a href="http://web.archive.org/web/19990508044928/http://www2.google.com/">May 08, 1999</a><br>
+<a href="http://web.archive.org/web/19991001063433/http://www.google.com/index.html">Oct 01, 1999</a> *<br>
+<a href="http://web.archive.org/web/19991012140308/http://google.com/">Oct 12, 1999</a><br>
+<a href="http://web.archive.org/web/19991106005001/http://www.google.com/index.html">Nov 06, 1999</a> *<br>
+<a href="http://web.archive.org/web/19991129021746/http://www13.google.com/">Nov 29, 1999</a> *<br>
+
+      </td>
+      <td nowrap class="mainBody" valign="top">
+         <a href="http://web.archive.org/web/20000229040250/http://www.google.com/">Feb 29, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000229152813/http://ww.google.com/">Feb 29, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000301105534/http://google.com/">Mar 01, 2000</a><br>
+<a href="http://web.archive.org/web/20000302034401/http://google.com/">Mar 02, 2000</a><br>
+<a href="http://web.archive.org/web/20000303002418/http://www.google.com/index.html">Mar 03, 2000</a><br>
+<a href="http://web.archive.org/web/20000304031839/http://www.google.com/">Mar 04, 2000</a><br>
+<a href="http://web.archive.org/web/20000408132116/http://www.google.com/index.html">Apr 08, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000409000228/http://google.com/">Apr 09, 2000</a><br>
+<a href="http://web.archive.org/web/20000510033852/http://www.google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510150831/http://www.google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510202335/http://google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510205236/http://www.google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510205859/http://google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510224849/http://www.google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000510230642/http://google.com/">May 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000511001133/http://google.com/">May 11, 2000</a><br>
+<a href="http://web.archive.org/web/20000511010020/http://www.google.com/">May 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000511010810/http://google.com/">May 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000511030814/http://www.google.com/">May 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000511092041/http://google.com/">May 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000511153815/http://www.google.com/index.html">May 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000512000414/http://google.com/">May 12, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000512022506/http://www.google.com/">May 12, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000519231943/http://google.com/">May 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000619010423/http://www.google.com/">Jun 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000619010849/http://google.com/">Jun 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000619192505/http://www.google.com/">Jun 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000620060743/http://www.google.com/">Jun 20, 2000</a><br>
+<a href="http://web.archive.org/web/20000621022516/http://www.google.com/">Jun 21, 2000</a><br>
+<a href="http://web.archive.org/web/20000621234243/http://google.com/">Jun 21, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000622053437/http://ww.google.com/">Jun 22, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000711010048/http://google.com/">Jul 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000711064330/http://www.google.com/">Jul 11, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000815065452/http://google.com/">Aug 15, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000816005654/http://www.google.com/index.html">Aug 16, 2000</a> *<br>
+<a href="http://web.archive.org/web/20000823181210/http://ww.google.com/">Aug 23, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001012201822/http://www.google.com/">Oct 12, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001017100455/http://www.google.com/">Oct 17, 2000</a><br>
+<a href="http://web.archive.org/web/20001017203019/http://google.com/">Oct 17, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001017204614/http://www.google.com/">Oct 17, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018015934/http://www.google.com/">Oct 18, 2000</a><br>
+<a href="http://web.archive.org/web/20001018051734/http://google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018061114/http://www.google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018075221/http://google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018094323/http://www.google.com/index.html">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018095001/http://google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018114635/http://www.google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018121814/http://google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018145440/http://www.google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001018154737/http://google.com/">Oct 18, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019004452/http://google.com/">Oct 19, 2000</a><br>
+<a href="http://web.archive.org/web/20001019005938/http://ww.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019030638/http://google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019034138/http://www.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019040335/http://google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019052728/http://www.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019063833/http://google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019064336/http://ww.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019071843/http://google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019075816/http://www.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019093220/http://www.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001019094610/http://www.google.com/">Oct 19, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001027222150/http://www.google.com/">Oct 27, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001110012200/http://google.com/">Nov 10, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001203022500/http://www.google.com/">Dec 03, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001203092900/http://www.google.com/index.html">Dec 03, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001203101800/http://www.google.com/index.html">Dec 03, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001203113300/http://www.google.com/">Dec 03, 2000</a> *<br>
+<a href="http://web.archive.org/web/20001203115900/http://www.google.com/index.html">Dec 03, 2000</a> *<br>
+
+      </td>
+      <td nowrap class="mainBody" valign="top">
+         <a href="http://web.archive.org/web/20010119175000/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119180400/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119180900/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119181300/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119182200/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119182900/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119190000/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010119190100/http://www.google.com/">Jan 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010120224300/http://ww.google.com/">Jan 20, 2001</a><br>
+<a href="http://web.archive.org/web/20010128152600/http://ww.google.com/index.html">Jan 28, 2001</a><br>
+<a href="http://web.archive.org/web/20010201202600/http://www.google.com/index.html">Feb 01, 2001</a><br>
+<a href="http://web.archive.org/web/20010224174946/http://www.google.com/">Feb 24, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010226174838/http://www.google.com/">Feb 26, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010301094610/http://www.google.com/">Mar 01, 2001</a><br>
+<a href="http://web.archive.org/web/20010301173359/http://www.google.com/">Mar 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010301200036/http://www.google.com/">Mar 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010301224203/http://www.google.com/">Mar 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010302014243/http://www.google.com/">Mar 02, 2001</a><br>
+<a href="http://web.archive.org/web/20010401010439/http://ww.google.com/">Apr 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010402002321/http://www2.google.com/">Apr 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010404082734/http://www.google.com/">Apr 04, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010405094210/http://www.google.com/">Apr 05, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010405131344/http://ww.google.com/">Apr 05, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010410194255/http://www.google.com/">Apr 10, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010413120310/http://www.google.com/index.html">Apr 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010414025846/http://ww.google.com/index.html">Apr 14, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010429155547/http://www.google.com/">Apr 29, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010503161941/http://www.google.com/">May 03, 2001</a><br>
+<a href="http://web.archive.org/web/20010504035711/http://www.google.com/">May 04, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010505030449/http://www.google.com/">May 05, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010505162958/http://www.google.com/">May 05, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010506051242/http://www.google.com/">May 06, 2001</a><br>
+<a href="http://web.archive.org/web/20010506135234/http://www.google.com/">May 06, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010506172234/http://www.google.com/">May 06, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507005823/http://www.google.com/">May 07, 2001</a><br>
+<a href="http://web.archive.org/web/20010507111357/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507150528/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507150617/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507151344/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507162705/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010507185008/http://www.google.com/">May 07, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010508011352/http://www.google.com/">May 08, 2001</a><br>
+<a href="http://web.archive.org/web/20010508054744/http://www.google.com/">May 08, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010508072248/http://www.google.com/">May 08, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010508155706/http://www.google.com/">May 08, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010509025617/http://www.google.com/">May 09, 2001</a><br>
+<a href="http://web.archive.org/web/20010509034723/http://www.google.com/">May 09, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010509063101/http://www.google.com/">May 09, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010510000145/http://www.google.com/">May 10, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010510221642/http://www.google.com/">May 10, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010511164512/http://www.google.com/">May 11, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010511195334/http://www.google.com/">May 11, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010511222508/http://www.google.com/">May 11, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010512031012/http://www.google.com/">May 12, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010512075153/http://www.google.com/">May 12, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010512125139/http://www.google.com/">May 12, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010512222140/http://www.google.com/">May 12, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010513010756/http://www.google.com/">May 13, 2001</a><br>
+<a href="http://web.archive.org/web/20010513013226/http://www.google.com/">May 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010513165741/http://www.google.com/">May 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010513171839/http://www.google.com/">May 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010513225404/http://www.google.com/">May 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010513232729/http://www.google.com/">May 13, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010514064245/http://www.google.com/">May 14, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010514135355/http://www.google.com/">May 14, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010514142608/http://www.google.com/">May 14, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010514185126/http://www.google.com/">May 14, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010515021646/http://www.google.com/">May 15, 2001</a><br>
+<a href="http://web.archive.org/web/20010515060214/http://www.google.com/">May 15, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010515214513/http://www.google.com/">May 15, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516010159/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516014907/http://google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516014910/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516025037/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516031029/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516031311/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516033329/http://ww.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516171351/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010516193116/http://www.google.com/">May 16, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517005847/http://www.google.com/">May 17, 2001</a><br>
+<a href="http://web.archive.org/web/20010517055952/http://www.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517125026/http://www.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517134253/http://www.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517184436/http://www.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517191838/http://www.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010517205233/http://www2.google.com/">May 17, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010518052810/http://www.google.com/">May 18, 2001</a><br>
+<a href="http://web.archive.org/web/20010518092736/http://www.google.com/">May 18, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010518160401/http://www.google.com/">May 18, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010518223420/http://www.google.com/">May 18, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010519013927/http://www.google.com/">May 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010519103018/http://www.google.com/">May 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010519120258/http://www.google.com/">May 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010519215232/http://www.google.com/">May 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010519231031/http://www.google.com/">May 19, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010520040322/http://www.google.com/">May 20, 2001</a><br>
+<a href="http://web.archive.org/web/20010520082922/http://www.google.com/">May 20, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010520163451/http://google.com/">May 20, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010520163452/http://www.google.com/">May 20, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010521001133/http://www.google.com/">May 21, 2001</a><br>
+<a href="http://web.archive.org/web/20010521142137/http://www.google.com/">May 21, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010521160621/http://www.google.com/">May 21, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010521173409/http://www.google.com/">May 21, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010522010139/http://www.google.com/">May 22, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010522072532/http://www.google.com/">May 22, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010523051046/http://www.google.com/">May 23, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010524100944/http://www.google.com/">May 24, 2001</a><br>
+<a href="http://web.archive.org/web/20010525035700/http://www.google.com/">May 25, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010525074506/http://www.google.com/">May 25, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010526051735/http://www.google.com/">May 26, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010526224505/http://www.google.com/">May 26, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010527070328/http://www.google.com/">May 27, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010527083458/http://www.google.com/">May 27, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010527101818/http://www.google.com/">May 27, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010528010218/http://www.google.com/">May 28, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010528051814/http://google.com/">May 28, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010528051818/http://www.google.com/">May 28, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010528052322/http://www.google.com/">May 28, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010528125150/http://www.google.com/">May 28, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010529032147/http://www.google.com/">May 29, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010529161155/http://www.google.com/">May 29, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010530023037/http://www.google.com/">May 30, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010530045223/http://www.google.com/">May 30, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010530212241/http://www.google.com/">May 30, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010531011741/http://www.google.com/">May 31, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010601003104/http://www.google.com/">Jun 01, 2001</a><br>
+<a href="http://web.archive.org/web/20010601050731/http://www.google.com/">Jun 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010601154544/http://google.com/">Jun 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010601154544/http://www.google.com/">Jun 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010601173808/http://www.google.com/">Jun 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010601174534/http://www.google.com/">Jun 01, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602034336/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602053122/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602161750/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602175745/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602175814/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602175842/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602175850/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602180041/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602180147/http://www.google.com/">Jun 02, 2001</a> *<br>
+<a href="http://web.archive.org/web/20010602180157/http://www.google.com/">Jun 02
